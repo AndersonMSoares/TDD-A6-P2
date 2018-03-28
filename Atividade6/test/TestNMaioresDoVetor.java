@@ -48,7 +48,7 @@ public class TestNMaioresDoVetor {
         menor = v.menorvetor(a, n);
         
         assertEquals(1.1, menor[0], 0.001);
-        assertEquals(5.60, menor[1], 0.001);
+        assertEquals(5.6, menor[1], 0.001);
         assertEquals(6.76, menor[2], 0.001);
     }
     
