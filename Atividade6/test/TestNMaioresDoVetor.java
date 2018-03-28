@@ -35,8 +35,8 @@ public class TestNMaioresDoVetor {
         double maior[] = new double[n];
         maior = v.maiorvetor(a, n);
         
-        assertEquals(10.1, maior[0]);
-        assertEquals(8.2, maior[1]);
-        assertEquals(7,55, maior[2]);
+        assertEquals(10.1, maior[0], 0.001);
+        assertEquals(8.2, maior[1], 0.001);
+        assertEquals(7.55, maior[2], 0.001);
     }
 }
