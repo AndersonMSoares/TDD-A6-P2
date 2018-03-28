@@ -5,7 +5,4 @@ addons:
     organization: "andersonmsoares-github"
 
 script:
-  mvn sonar:sonar \
-  -Dsonar.organization=andersonmsoares-github \
-  -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login=c634808500c3e282647092d43bfd27015de8e151
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
